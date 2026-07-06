@@ -2,7 +2,6 @@
 
 **Classification:** TLP:CLEAR (public distribution)
 **Author:** Kethan Umanarayanan
-**Date:** July 2026
 **Report type:** Open-source threat intelligence brief
 **Confidence:** Moderate — assessed from open-source intelligence (OSINT) and vendor reporting. No primary incident-response data.
 
