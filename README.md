@@ -21,4 +21,4 @@ Generic "top ransomware groups" lists are easy to find. These briefs instead ask
 ## Author
 
 **Kethan Umanarayanan** — M.S. Cybersecurity candidate, Drexel University
-For educational and portfolio purposes.
+
