@@ -1,0 +1,14 @@
+indicator_type,indicator,attack_id,description,source_ref
+behavioral,VPN/RDP login from atypical geolocation to privileged account,T1078,Valid-account abuse is Qilin's most common initial access vector,"MOXFIVE; NetSecurity"
+behavioral,Unauthorized RMM tool install (AnyDesk/ScreenConnect/Splashtop),T1219,RMM tooling used for access outside approved IT workflows,NetSecurity
+behavioral,wsl.exe --install or wsl.exe -e on non-developer host,T1562.001,WSL abused to run Linux ELF encryptor and evade EDR,NetSecurity
+behavioral,Chrome credential store access prior to encryption,T1555.003,Systematic theft of Chrome-stored credentials documented by Sophos,dexpose
+behavioral,Mimikatz or OS credential dumping activity,T1003,Credential dumping to enable lateral movement,"Rescana; NetSecurity"
+behavioral,Mass deletion of Volume Shadow Copies,T1490,Inhibits recovery before encryption,Qualys
+behavioral,Windows event logs cleared before encryption,T1070.001,Log deletion to frustrate investigation,Picus
+behavioral,Ransomware payload written to C:\temp (e.g. w.exe),T1486,Payload staged in temp dir to blend with system files,Picus
+behavioral,Unexpected mass file-extension changes across network shares,T1486,Encryption impact indicator,Group-IB
+cve,CVE-2023-27532,T1190,Veeam Backup & Replication credential retrieval used for access,Picus
+cve,CVE-2024-21762,T1190,Fortinet flaw exploited for auth bypass / code execution,CybelAngel
+cve,CVE-2024-55591,T1190,Fortinet flaw exploited for auth bypass,CybelAngel
+cve,CVE-2024-27198,T1190,JetBrains TeamCity auth bypass enabling admin access,CybelAngel
